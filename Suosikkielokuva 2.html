@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+<h1>Spiderman 3 </h1>
+<p>Kesto: 2H 19Min</p>
+<p>Ikäraja: 13v</p>
+<p>Genre: Toiminta, Trilleri, Seikkailu, Supersankarielokuva, Tieteis</p>
+<p>Peter Parker on onnistunut löytämään tasapainon yksityiselämänsä ja sankarielämänsä välillä ja aikoo nyt kosia Mary Janea. Eräänä iltana Mary Janen ja Peterin viettäessä treffejään puistossa, syöksyy taivaalta meteoriitti maahan, josta purkautuu musta symbiootti, joka kiinnittää itsensä Peterin moottoripyörään. Samaan aikaan karannut vanki Flint Marko putoaa hiukkasfysiikan kokeilulaitoksen kuoppaan, jossa tiedemiehet ovat testaamassa uutta keksintöään. Tuloksena Marko saa kyvyn muuttua hiekaksi ja hänestä tulee Hiekkamies.</p>
+
+<script>
+
+function toggleImage() {
+   var img1 = "https://upload.wikimedia.org/wikipedia/fi/7/7a/Spider-Man_3%2C_International_Poster.jpg";
+   
+   var img2 = "https://www.indiewire.com/wp-content/uploads/2019/06/spider-man-tobey-maguire.jpg?resize=600,389";
+   
+   var imgElement = document.getElementById('toggleImage');
+
+   imgElement.src = (imgElement.src === img1)? img2 : img1;
+}
+function mouseOver() {
+   document.getElementById('image').style.height = "50px";
+}
+</script>
+<img src="https://upload.wikimedia.org/wikipedia/fi/7/7a/Spider-Man_3%2C_International_Poster.jpg" id="toggleImage" onclick="toggleImage();"/>
+
+
+</body>
+</html>

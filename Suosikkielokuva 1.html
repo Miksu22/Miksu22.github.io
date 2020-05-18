@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+<h1>Fast&Furious 8 </h1>
+<p>Kesto: 2H 29Min</p>
+<p>Ikäraja: 12v</p>
+<p>Genre: Toiminta, Jännitys, Rikoselokuva</p>
+<p>Maassa tuntuu vallitsevan rauha, kun vauhdikas tiimi viettää viimein tavallista arkea: Dom ja Letty nauttivat kuherruskuukaudestaan ja Brian ja Mia ovat jättäneet entisen elämän taakseen. Kaikki kuitenkin muuttuu, kun salaperäinen nainen (Oscar-voittaja Charlize Theron) viettelee Domin rikollisuuden ja petoksen pyörteisiin alamaailmaan, josta ei näytä olevan pakokeinoa.</p>
+
+<script>
+
+function toggleImage() {
+   var img1 = "https://media.finnkino.fi/1012/Event_11470/portrait_medium/FastFurious8_1080.jpg?width=323";
+   
+   var img2 = "http://thehypedgeek.com/wp-content/uploads/2017/04/F8CarsIce.jpg";
+   
+   var imgElement = document.getElementById('toggleImage');
+
+   imgElement.src = (imgElement.src === img1)? img2 : img1;
+}
+function mouseOver() {
+   document.getElementById('image').style.height = "50px";
+}
+</script>
+<img src="https://media.finnkino.fi/1012/Event_11470/portrait_medium/FastFurious8_1080.jpg?width=323" id="toggleImage" onclick="toggleImage();"/>
+
+
+</body>
+</html>
